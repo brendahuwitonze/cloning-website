@@ -33,3 +33,54 @@ nav li a{
 nav li a.app{
     color:#f63232
 } 
+/* .bgImage{
+    position:relative;
+} */
+.bgImage img{
+    max-width: 200%;
+} 
+.bgImage .welcome{
+    color:white;
+    padding:30px; 
+    position:absolute;
+    top:30%;
+    left:0;
+}  
+.bgImage h2{
+    font-size: 32px;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+article h2{
+color:#9e7e7e ;
+font-size: 20px;
+}
+article h3{
+line-height: 2em;
+color: #4b4b4b ;
+}
+.img{
+    text-align: center;
+    margin: 80px 0;
+   white-space:nowrap;
+   padding: 5px;
+}
+.img li{
+    display: inline-block;
+    width: 40%;
+    margin-right: -150px;
+    
+   
+}
+.img li img{
+max-width: 100%;
+}
+
