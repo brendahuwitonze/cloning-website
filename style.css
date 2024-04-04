@@ -1,4 +1,4 @@
- body{
+ /* body{
     overflow-x: hidden;
  }
  header{
@@ -13,7 +13,7 @@
 }
 nav{ 
     /* background-color: #f4f4f4; */
-    padding :20px;
+    /* padding :20px;
     position:sticky;
     top:105px; 
 
@@ -40,7 +40,7 @@ nav li a.app{
     position:relative;
 } 
 */
-.image-cont{
+/* .image-cont{
     height: 10%;
     position: relative;
 
@@ -61,24 +61,24 @@ nav li a.app{
     padding:30px; 
     position:absolute;
     top:30%;
-    left:0;
-    
+    left:0; */
+/*     
 }  
 .bgImage h2{
     font-size: 50px;
      margin-left: 500px;
      margin-top: 200px;
      
-}
-
+} */
+/* 
 main{
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
     padding: 0 40px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 
-}
+/* }
 
 article h2{
 color:#9e7e7e ;
@@ -104,10 +104,10 @@ color: #4b4b4b ;
 }
 .img li img{
 max-width: 100%;
-}
+} */
  
  /* img1 */   
-.img1{
+/* .img1{
     text-align: center;
     margin-left: -24%;
    white-space:nowrap;
@@ -123,7 +123,7 @@ max-width: 100%;
     max-width: 100%;
     }
 /* midllebackground */
-.midllebg img{
+/* .midllebg img{
         margin-left: 10%;
 
         border-radius: 13px;
@@ -132,12 +132,111 @@ max-width: 100%;
 }
 .img3 li{
     display: inline-block;
-    width: 100%;
+    width: 100%; */
 
 
-}
+/* }
 .img4 li{
     display: inline-block;
     width: 40%;
     margin-right: -150px;
-}
+} */
+
+
+
+/* navBar*/
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 1.8rem;
+  }
+  
+  nav .logo img {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 0.8em;
+    font-size: 12px;
+    font-weight: 550;
+  }
+  nav ul li button {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    border: 0.5px solid #9a8787;
+    background: #fff;
+    border-radius: 20px;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  nav ul li button:hover {
+    background-color: #e9f2e7;
+  }
+  nav ul li button img {
+    width: 15px;
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+  }
+  nav ul li button span {
+    margin-left: 5px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #111;
+  }
+  nav ul li a:hover {
+    color: #2c1cc5;
+    transition: ease-in 0.2s all;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
