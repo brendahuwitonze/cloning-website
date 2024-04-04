@@ -119,7 +119,7 @@ main .image-cont form {
     justify-content: space-between;
     align-items: center;
   }
-  main .image-contform .input {
+  main .image-cont form .input {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
@@ -134,7 +134,7 @@ main .image-cont form {
     height: 3rem;
     cursor: pointer;
   }
-  main .image-contform .input i {
+  main .image-cont form .input i {
     font-size: 24px;
   }
   main .image-cont form .input span {
@@ -143,7 +143,7 @@ main .image-cont form {
   main .image-cont form .input:hover {
     border: 1px solid blue;
   }
-  main .image-contform .input .input-multiple-lines {
+  main .image-cont form .input .input-multiple-lines {
     display: flex;
     flex-direction: column;
     font-size: 13px;
