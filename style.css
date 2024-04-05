@@ -311,3 +311,16 @@ main .image-cont form {
     margin-top: 40px;
   }
   
+  main .section-5{
+    width: 100vw;
+    margin-top: 200px;
+  }
+  main .section-5 .container{
+    background-image: url("./img/banner4.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    backdrop-filter: grayscale(50%);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+  }
