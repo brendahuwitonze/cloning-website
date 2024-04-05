@@ -324,3 +324,36 @@ main .image-cont form {
     border-radius: 20px;
     overflow: hidden;
   }
+
+
+  main .section-5 .text-container {
+    text-align: left;
+    max-width: 40%;
+    padding: 3rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .section-5 .text-container h2 {
+    font-size: 2rem;
+    padding-block: 10px;
+  }
+
+  main .section-5 .text-container button {
+    margin-top: 15px;
+    padding: 16px 20px;
+    background-color: #120c4a;
+    outline: none;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+ 
