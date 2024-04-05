@@ -9,7 +9,7 @@
   }
   .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto;;
   }
   img:hover {
     cursor: pointer;
@@ -164,74 +164,150 @@ main .image-cont form {
     transition: all ease 0.2s;
   }
   
-/* main{
-    max-width: 100%;
-    width: 1200px;
-    margin: 80px auto;
-    padding: 0 40px;
-    box-sizing: border-box;
-
-} */
-
-article h2{
-color:#9e7e7e ;
-font-size: 20px;
-}
-article h3{
-line-height: 2em;
-color: #4b4b4b ;
-}
- .img{
-    text-align: center;
-    margin-left: -24%;
-   white-space:nowrap;
-   padding: 2px;
-   
-}
-.img li{
-    display: inline-block;
-    width: 40%;
-    margin-right: -220px;
-   
-
-}
-.img li img{
-max-width: 100%;
-}
- 
- /* img1 */   
-.img1{
-    text-align: center;
-    margin-left: -24%;
-   white-space:nowrap;
-   padding: 5px;
-}
-.img1 li{
-    display: inline-block;
-    width: 40%;
-    margin-right: -150px;
-
-}
-.img1 li img{
-    max-width: 100%;
-    }
-/* midllebackground */
-.midllebg img{
-        margin-left: 10%;
-
-        border-radius: 13px;
-        height:60vh;
-        width:80%;
-}
-.img3 li{
-    display: inline-block;
+  main .section-2 {
+    width: 100vw;
+    padding-top: 80px;
+    color: #333 !important;
+  }
+  
+  main .section-2 h2 {
+    padding-block: 10px;
+  }
+  main .section-2 .slideshow-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  main .section-2 .slideshow-container::-webkit-scrollbar {
+    display: none;
+  }
+  main .section-2 .slideshow-container .slide {
+    border-radius: 20px;
+    border: 0.2px solid #e1dada;
+    overflow: hidden;
+    min-height: 170px;
+    max-height: 170px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .section-2 .slideshow-container .slide img {
     width: 100%;
-
-
-}
-.img4 li{
-    display: inline-block;
-    width: 40%;
-    margin-right: -150px;
-}
-/* styling the nav Bar */
+    max-height: 130px;
+    flex-basis: 80%;
+  }
+  main .section-2 .slideshow-container .slide .img-title {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  main .section-2 h1 {
+    padding-block: 15px;
+    margin-top: 25px;
+  }
+  
+  main .section-2 .slideshow-container .accomodation {
+    min-width: 320px;
+    height: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  main .section-2 .slideshow-container .accomodation img {
+    min-height: 100%;
+    max-height: 200px;
+    border-radius: 20px;
+    filter: opacity(0.9);
+    cursor: pointer;
+  }
+  main .section-2 .slideshow-container .accomodation p {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    bottom: 10px;
+    left: 10px;
+  }
+  main .section-3 {
+    width: 100vw;
+    margin-top: 200px;
+  }
+  main .section-3 .container {
+    background-image: url("../img/banner4.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    backdrop-filter: grayscale(50%);
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  main .section-3 .text-container {
+    text-align: left;
+    max-width: 40%;
+    padding: 3rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .section-3 .text-container h2 {
+    font-size: 2rem;
+    padding-block: 10px;
+  }
+  main .section-3 .text-container p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  main .section-3 .text-container button {
+    margin-top: 15px;
+    padding: 16px 20px;
+    background-color: #120c4a;
+    outline: none;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  main .section-4 {
+    margin-top: 100px;
+  }
+  main .section-4 .featured-trips-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  main .section-4 .featured-trips-container .trip {
+    max-width: 50%;
+    margin-top: 25px;
+  }
+  main .section-4 .featured-trips-container .trip img {
+    max-width: 100%;
+    border-radius: 20px;
+    height: fit-content;
+  }
+  main .section-4 .featured-trips-container .trip .trip-category {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-block: 10px;
+    color: #555;
+  }
+  main .section-4 .featured-trips-container .trip .title {
+    font-weight: 800;
+    font-size: 14px;
+    color: #333;
+  }
+  .spacer {
+    margin-top: 40px;
+  }
+  
